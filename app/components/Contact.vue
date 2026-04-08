@@ -29,10 +29,10 @@
 
           <li>
             <a
-              href="mailto:office.masiaglobal@gmail.com"
+              href="mailto:office.ciptaniaga@gmail.com"
               class="hover:text-blue-300 transition underline underline-offset-2"
             >
-              ✉️ office.masiaglobal@gmail.com
+              ✉️ office.ciptaniaga@gmail.com
             </a>
           </li>
           <li>

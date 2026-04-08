@@ -94,10 +94,10 @@
         <p class="text-sm mb-4">
           <span class="text-white font-medium">Email:</span><br>
           <a
-            href="mailto:office.masiaglobal@gmail.com"
+            href="mailto:office.ciptaniaga@gmail.com"
             class="text-gray-300 hover:text-blue-300 underline underline-offset-2 transition"
           >
-            office.masiaglobal@gmail.com
+            office.ciptaniagas@gmail.com
           </a>
         </p>
 

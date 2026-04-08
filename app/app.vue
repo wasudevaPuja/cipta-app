@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const PROD_DOMAINS = [
-  'masiaglobal.asia',
-  'www.masiaglobal.asia'
+  'ciptaniaga.asia',
+  'www.ciptaniaga.asia'
 ]
 
 const isProdDomain
@@ -15,7 +15,7 @@ useHead(() => {
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.masiaglobal.asia'
+          href: 'https://www.ciptaniaga.asia'
         },
         {
           rel: 'icon',
@@ -39,7 +39,7 @@ useHead(() => {
     }
   }
 
-  // hanya jalan di masiaglobal.asia
+  // hanya jalan di ciptaniaga.asia
   return {
     script: [
       {
@@ -59,7 +59,7 @@ useHead(() => {
     link: [
       {
         rel: 'canonical',
-        href: 'https://www.masiaglobal.asia'
+        href: 'https://www.ciptaniaga.asia'
       },
       {
         rel: 'icon',
