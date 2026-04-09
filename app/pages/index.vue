@@ -8,7 +8,7 @@ useSeoMeta({
     'Driving Smarter Business Across Borders. Empowering companies through trade execution, business advisory, and operational support — with clarity, efficiency, and professionalism.',
   ogType: 'website',
   ogUrl: 'https://www.ciptaniaga.asia',
-  ogImage: 'https://www.ciptaniaga.asia/img/only_logo.png',
+  ogImage: 'https://cipta-app.vercel.app/img/only_logo.png',
   ogSiteName: 'PT Cipta Niaga Solutions',
   ogImageHeight: 630,
   ogImageWidth: 1200,
@@ -16,7 +16,7 @@ useSeoMeta({
   twitterTitle: 'PT Cipta Niaga Solutions | Trade. Insight. Execution.',
   twitterDescription:
     'Driving Smarter Business Across Borders — Trade Execution, Business Advisory & Distribution Solutions.',
-  twitterImage: 'https://www.ciptaniaga.asia/img/only_logo.png'
+  twitterImage: 'https://cipta-app.vercel.app/img/only_logo.png'
 })
 </script>
 
