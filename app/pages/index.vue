@@ -1,22 +1,22 @@
 <script lang="ts" setup>
 useSeoMeta({
-  title: 'MASIA GLOBAL TRADE SDN. BHD. | Trade, Strategy, Partnership, Elevated',
+  title: 'PT Cipta Niaga Solutions | Trade. Insight. Execution.',
   description:
-    'MASIA GLOBAL TRADE SDN. BHD. We help businesses move smarter—not just further. Connecting opportunities, enhancing trading performance, and delivering long-term strategic clarity',
-  ogTitle: 'MASIA GLOBAL TRADE SDN. BHD. | Trade, Strategy, Partnership, Elevated',
+    'PT Cipta Niaga Solutions — Driving Smarter Business Across Borders. We empower businesses through structured import-export operations, business advisory, and reliable distribution solutions across Indonesia and beyond.',
+  ogTitle: 'PT Cipta Niaga Solutions | Trade. Insight. Execution.',
   ogDescription:
-    'We help businesses move smarter—not just further. Connecting opportunities, enhancing trading performance, and delivering long-term strategic clarity',
+    'Driving Smarter Business Across Borders. Empowering companies through trade execution, business advisory, and operational support — with clarity, efficiency, and professionalism.',
   ogType: 'website',
   ogUrl: 'https://www.ciptaniaga.asia',
-  ogImage: 'https://www.ciptaniaga.asia/img/logo-v2.png',
-  ogSiteName: 'MASIA GLOBAL TRADE SDN. BHD.',
+  ogImage: 'https://www.ciptaniaga.asia/img/only_logo.png',
+  ogSiteName: 'PT Cipta Niaga Solutions',
   ogImageHeight: 630,
   ogImageWidth: 1200,
   twitterCard: 'summary_large_image',
-  twitterTitle: 'MASIA GLOBAL TRADE SDN. BHD.',
+  twitterTitle: 'PT Cipta Niaga Solutions | Trade. Insight. Execution.',
   twitterDescription:
-    'Trade, Strategy, Partnership, Elevated',
-  twitterImage: 'https://www.ciptaniaga.asia/img/logo-v2.png'
+    'Driving Smarter Business Across Borders — Trade Execution, Business Advisory & Distribution Solutions.',
+  twitterImage: 'https://www.ciptaniaga.asia/img/only_logo.png'
 })
 </script>
 

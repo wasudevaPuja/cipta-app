@@ -3,16 +3,25 @@
     :class="[
       'fixed top-0 left-0 w-full z-50 transition-all duration-300 backdrop-blur-md',
       scrolled
-        ? 'bg-[#0B1E35]/95 border-b border-white/10 shadow-lg'
+        ? 'bg-[#0A1128]/95 border-b border-white/10 shadow-lg'
         : 'bg-transparent border-b border-transparent'
     ]"
   >
     <nav class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
       <NuxtLink
         to="/"
-        class="text-white text-xl font-semibold tracking-wide"
+        class="flex items-center gap-3 group"
       >
-        MASIA GLOBAL TRADE SDN. BHD.
+        <div class="w-14 h-14 rounded-xl bg-white/5 border border-white/10 p-2.5 flex items-center justify-center transition-transform duration-500 group-hover:scale-110">
+          <img
+            src="/img/only_logo.png"
+            alt="Logo"
+            class="w-full h-full object-contain"
+          >
+        </div>
+        <span class="text-white text-xl font-bold tracking-[0.1em] hidden md:block">
+          PT CIPTA NIAGA SOLUTIONS
+        </span>
       </NuxtLink>
 
       <ul class="hidden md:flex items-center gap-8 font-medium">
@@ -21,8 +30,8 @@
           :key="item.id"
         >
           <span
-            class="cursor-pointer transition"
-            :class="activeSection === item.id ? 'text-blue-300' : 'text-white hover:text-blue-300'"
+            class="cursor-pointer transition-colors duration-300"
+            :class="activeSection === item.id ? 'text-[#2563EB] font-semibold' : 'text-gray-300 hover:text-white'"
             @click="scrollTo(item.id)"
           >
             {{ item.label }}
@@ -52,7 +61,7 @@
     <transition name="slide">
       <div
         v-if="menuOpen"
-        class="md:hidden bg-[#0B1E35]/95 px-6 py-4 border-t border-white/10"
+        class="md:hidden bg-[#0A1128]/95 px-6 py-4 border-t border-white/10"
       >
         <ul class="flex flex-col gap-4 text-white text-lg">
           <li
@@ -60,8 +69,8 @@
             :key="item.id"
           >
             <span
-              class="cursor-pointer transition"
-              :class="activeSection === item.id ? 'text-blue-300' : 'text-white hover:text-blue-300'"
+              class="cursor-pointer transition-colors duration-300 block py-1"
+              :class="activeSection === item.id ? 'text-[#2563EB] font-semibold' : 'text-gray-300 hover:text-white'"
               @click="scrollTo(item.id)"
             >
               {{ item.label }}
