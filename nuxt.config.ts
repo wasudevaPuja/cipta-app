@@ -17,7 +17,7 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
   site: {
-    url: 'https://www.ciptaniaga.asia'
+    url: 'https://ciptaniagasolution.com'
   },
 
   routeRules: {

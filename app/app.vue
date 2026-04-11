@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const PROD_DOMAINS = [
-  'ciptaniaga.asia',
-  'www.ciptaniaga.asia'
+  'ciptaniagasolution.com',
+  'www.ciptaniagasolution.com'
 ]
 
 const isProdDomain
@@ -15,7 +15,7 @@ useHead(() => {
       link: [
         {
           rel: 'canonical',
-          href: 'https://www.ciptaniaga.asia'
+          href: 'https://ciptaniagasolution.com'
         },
         {
           rel: 'icon',
@@ -39,11 +39,11 @@ useHead(() => {
     }
   }
 
-  // hanya jalan di ciptaniaga.asia
+  // hanya jalan di ciptaniagasolution.com
   return {
     script: [
       {
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-NJ7LBE7BEM',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-VSBERFJM9Z',
         async: true
       },
       {
@@ -51,7 +51,7 @@ useHead(() => {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-NJ7LBE7BEM');
+          gtag('config', 'G-VSBERFJM9Z');
         `,
         type: 'text/javascript'
       }
@@ -59,7 +59,7 @@ useHead(() => {
     link: [
       {
         rel: 'canonical',
-        href: 'https://www.ciptaniaga.asia'
+        href: 'https://ciptaniagasolution.com'
       },
       {
         rel: 'icon',
