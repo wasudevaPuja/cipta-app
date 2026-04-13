@@ -6,7 +6,7 @@ const PROD_DOMAINS = [
 
 const isProdDomain
   = typeof window !== 'undefined'
-    && PROD_DOMAINS.includes(window.location.hostname)
+  && PROD_DOMAINS.includes(window.location.hostname)
 
 useHead(() => {
   // jangan inject apa pun kalau bukan prod domain
@@ -41,6 +41,9 @@ useHead(() => {
 
   // hanya jalan di ciptaniagasolution.com
   return {
+    meta: [
+      { name: 'google-site-verification', content: '-9Nm_2gIHHuSiEzS09ZnkNaEKGL4OsbnEyWoteKIRn8' }
+    ],
     script: [
       {
         src: 'https://www.googletagmanager.com/gtag/js?id=G-VSBERFJM9Z',
